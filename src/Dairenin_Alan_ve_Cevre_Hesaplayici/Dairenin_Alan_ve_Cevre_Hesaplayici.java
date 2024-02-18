@@ -1,5 +1,6 @@
-import java.util.Scanner;
+package Dairenin_Alan_ve_Cevre_Hesaplayici;
 
+import java.util.Scanner;
 public class Dairenin_Alan_ve_Cevre_Hesaplayici {
     public static void main(String[] args) {
 
