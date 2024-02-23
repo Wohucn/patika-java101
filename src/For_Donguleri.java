@@ -9,7 +9,7 @@ public class For_Donguleri {
         int k = 1;
         while (k <=10){
             System.out.println(k);
-            k++;
+            k +=2;
         }
     }
 }
