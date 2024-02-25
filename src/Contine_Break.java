@@ -9,14 +9,23 @@ public class Contine_Break {
 
         System.out.println("-------------------------");
 
+        for (int i = 1; i <= 10; i++) {
+            if (i < 5) {
+                continue;
+            }
+            System.out.println(i);
+        }
+
+        System.out.println("-------------------------");
+
         int a = 1;
         while (a <= 10) {
             a++;
             if (a % 2 == 0) {
-
                 continue;
             }
             System.out.println(a);
+
 
         }
     }
