@@ -5,18 +5,17 @@ import java.util.Scanner;
 public class Yildizlar_ile_Ucgen_Yapimi {
     public static void main(String[] args) {
         Scanner girdi = new Scanner(System.in);
-        System.out.print("Kaç satır olmasını istiyorsunuz: ");
-        int n = girdi.nextInt();
+        System.out.print("Bir sayı giriniz: ");
+        int sayi = girdi.nextInt();
 
-
-        for (int i = 0; i <= n; i++) {
-            for (int j = 1; j <= (n - i); j++) {
+        for (int i = 0; i <=sayi; i++){
+            for (int b = 1; b<= sayi-i; b++){
                 System.out.print(" ");
             }
-            for (int k = 1; k <= (2 * i + 1); k++) {
+            for (int y = 1; y <= (2* i +1); y++){
                 System.out.print("*");
             }
-            System.out.println(" ");
+            System.out.println();
         }
     }
 }
